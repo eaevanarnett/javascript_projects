@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width">
+        <title>Math Operators</title>
+        <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+        <script src="JS3/main3.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <form action="" method="POST">
+                    Enter your age and hold submit to see how many days you've been alive!
+                    <input onblur="Days()" id="math" type="number" name="age" placeholder="AGE">
+                    <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+            <div class="row">
+                <h3>Subtraction</h3>
+                <p onmouseover="Sub()" id="sub">765123 - 345543 = ?</p>
+            </div>
+            <div class="row">
+                <h3>Addition</h3>
+                <p onmouseover="Add()" id="add">45 + 32 = ?</p>
+            </div>
+            <div class="row">
+                <h3>Division</h3>
+                <p onmouseover="Div()" id="div">76 / 32 = ?</p>
+            </div>
+            <div class="row">
+                <h3>Multiple Expressions</h3>
+                <p onclick="Several()" id="several">A third of twenty-four minus twelve multiplied by seven equals = ?</p>
+            </div>
+            <div class="row">
+                <h3>Modulus</h3>
+                <p ondblclick="Modulus()" id="modulus">Double click to see the negative remainder of 23 / 3</p>
+            </div>
+            <div class="row">
+                <h3>Increment/Decrement</h3>
+                <form action="" method="POST">
+                    <input onblur="Decrement()" id="decrement" type="number" placeholder="Pick a Number, Any Number">
+                    <br><input type="submit" value="SUBMIT">
+                </form>
+            </div>
+            <div class="row">
+                <h3>Math Object</h3>
+                <p>The math object is static and has no constructor. All methods and properties can be used without creating a Math object first.</p>
+                <p onclick="Circum()" id="object">Click to find out the circumference of a circle with a 7ft radius!</p>
+            </div>
+        </div>
+    </body>
+</html>
