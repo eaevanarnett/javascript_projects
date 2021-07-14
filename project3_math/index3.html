@@ -9,11 +9,9 @@
     <body>
         <div class="container">
             <div class="row">
-                <form action="" method="POST">
-                    Enter your age and hold submit to see how many days you've been alive!
-                    <input onblur="Days()" id="math" type="number" name="age" placeholder="AGE">
-                    <input type="submit" value="SUBMIT">
-                </form>
+                Enter your age and submit to see how many days you've been alive!
+                <input id="math" type="number" placeholder="AGE">
+                <br><button onclick="Days()">SUBMIT</button>
             </div>
             <div class="row">
                 <h3>Subtraction</h3>
@@ -33,19 +31,20 @@
             </div>
             <div class="row">
                 <h3>Modulus</h3>
-                <p ondblclick="Modulus()" id="modulus">Double click to see the negative remainder of 23 / 3</p>
+                <p ondblclick="Modulus()" id="modulus">Double click to see the remainder of 23 / 3</p>
             </div>
             <div class="row">
-                <h3>Increment/Decrement</h3>
-                <form action="" method="POST">
-                    <input onblur="Decrement()" id="decrement" type="number" placeholder="Pick a Number, Any Number">
-                    <br><input type="submit" value="SUBMIT">
-                </form>
+                <h3>Decrement</h3>
+                <input id="decrement" type="number" placeholder="Pick a Number, Any Number">
+                <br><button onclick="Decrement()">ITS GOIN DOWN</button>
             </div>
             <div class="row">
                 <h3>Math Object</h3>
                 <p>The math object is static and has no constructor. All methods and properties can be used without creating a Math object first.</p>
                 <p onclick="Circum()" id="object">Click to find out the circumference of a circle with a 7ft radius!</p>
+            </div>
+            <div class="row">
+                <button onclick="myDictionary()" id="dictionary">___<br>___<br>___<br>&nbsp;</button>
             </div>
         </div>
     </body>

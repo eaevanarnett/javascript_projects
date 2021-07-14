@@ -30,7 +30,7 @@ function Several() {
 
 function Modulus() {
     var e = 23 % 3;
-    document.getElementById("modulus").innerHTML = -e;
+    document.getElementById("modulus").innerHTML = e;
 }
 
 function Decrement() {
@@ -43,3 +43,16 @@ function Circum() {
     var h = 14 * 12;
     document.getElementById("object").innerHTML = Math.round(h * Math.PI) + "in";
 }
+
+function myDictionary() {
+    var Computer = {
+        brand: "Hewlett-Packard", 
+        operating_system: "Windows 10",
+        processor: "Intel Core i7-1165G7",
+        display: "15.6 inch",
+        graphics: "Intel Iris Xe",
+        color: "nightfall black",  
+    };
+    document.getElementById("dictionary").innerHTML = Computer.brand;
+}
+// If the same key is used twice, it displays the last value associated with it
