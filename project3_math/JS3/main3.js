@@ -32,12 +32,12 @@ function Modulus() {
     var e = 23 % 3;
     document.getElementById("modulus").innerHTML = e;
 }
+// Modulus can be used to find remainders and prime and numbers
 
 function Decrement() {
     var f = document.getElementById("decrement");
     f.value -= 1;
 }
-// Attempted to use the decrement operator here, but was unsuccessful; Thought this would suffice for the assignment
 
 function Circum() {
     var h = 14 * 12;
@@ -56,3 +56,11 @@ function myDictionary() {
     document.getElementById("dictionary").innerHTML = Computer.brand;
 }
 // If the same key is used twice, it displays the last value associated with it
+
+var y = 7;
+y--;
+document.write(y);
+
+var z = 7;
+z++;
+document.write(z);

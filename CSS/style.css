@@ -32,6 +32,7 @@ button {
     text-align: center;
 }
 
-#decrement {
+#decrement,
+#increment {
     text-align: center;
 }
