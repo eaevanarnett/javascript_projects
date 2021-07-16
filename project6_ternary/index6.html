@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="uft-8" name="viewport" content="width=device-width">
+        <title>Ternary</title>
+        <script src="JS6/main6.js"></script>
+        <style>
+            .row {
+                width: 100%;
+            }
+            .column {
+                width: 33%;
+                float: left;
+            }
+            #col {
+                margin-top: 1%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="row">
+            <div class="column">
+                <h3>ATTENTION</h3>
+                <p>We check the ID of all customers who appear under the age 26</p>
+                <!-- 'value' attribute is to be left blank and then retrieved by JS function -->
+                <input id="age" value="" placeholder="Enter your age to continue">
+                <button onclick="alcohol()">SUBMIT</button>
+                <p id="sell"></p>
+            </div>
+            <div class="column" id="col">
+                <button onclick="aFunction()">CLICK</button>
+                <p id="key_constr"></p>
+            </div>
+            <div class="column" id="col">
+                <button id="three" onclick="multiplyFunction()">I see a 6 you see a</button>
+            </div> 
+        </div>
+    </body>
+</html>
