@@ -41,6 +41,13 @@ function tonFunction() {
     document.getElementById("ton").innerHTML = !(Math.SQRT2 == 65);
 }
 
+function qualify() {
+    var years, can_purchase;
+    years = document.getElementById("age").value;
+    can_purchase = (years < 21) ? "You are too young":"You are of age";
+    document.getElementById("purchase").innerHTML = can_purchase + " to buy alcohol.";
+}
+
 console.log(12 * 8);
 console.log(7 > 7);
 console.log("weather" == "cold");
